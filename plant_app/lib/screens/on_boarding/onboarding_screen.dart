@@ -24,16 +24,6 @@ class _OnBoardingState extends State<OnBoarding> {
   // if we are on the last page or not
   bool onLastPage = false;
 
-  // Function to navigate to HomePage
-  // void navigateToHomePage() {
-  //   Navigator.push(
-  //     context,
-  //     MaterialPageRoute(builder: (context) {
-  //       return HomeScreen();
-  //     }),
-  //   );
-  // }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -83,10 +73,8 @@ class _OnBoardingState extends State<OnBoarding> {
                       child: button(
                         text: "Get Started",
                         onTap: () {
-                          Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => Body()));
+                          Navigator.push(context,
+                              MaterialPageRoute(builder: (context) => Body()));
                         },
                       ),
                     )

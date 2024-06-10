@@ -1,8 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:plant_app/constants.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import 'package:plant_app/pages/cart_page.dart';
 import 'package:plant_app/pages/profile_page.dart';
